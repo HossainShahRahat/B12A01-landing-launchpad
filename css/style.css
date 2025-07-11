@@ -49,14 +49,24 @@ nav li a{
 }
 .h1-container3{
     font-size: 38px;
+    color: #252432;
+}
+.h1-container4{
+    font-size: 80px;
+    line-height: 0.8;
+    color: #4E47FF;
 }
 .banner{
     margin: auto;
     text-align: center;
 }
 
-p{
+.paragraph-container1{
     font-size: 24px;
+}
+.paragraph-container2{
+    font-size: 20px;
+    color: #000000;
 }
 .action{
     padding: 116px 159px 0px 141px;
@@ -64,13 +74,19 @@ p{
     align-items: center;
     justify-content: space-between;
 }
-.Right-Side{
-    margin: auto;
-}
 .img-radius{
     border-radius: 48px;
 }
 .Productive-Users{
     margin: auto;
     text-align: center;
+    padding:389.3px;
+
 }
+.Review{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+
