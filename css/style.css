@@ -1,11 +1,20 @@
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /*nav*/
 nav{
     display:flex;
@@ -27,6 +36,12 @@ nav ul li{
 nav li a{
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 14px;
+    padding-right: 10px;
+}
 .btn-primary{
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -34,9 +49,17 @@ nav li a{
     padding: 12px 36px;
     border-radius: 7px;;
     border: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #eac21a;
+    color:#000000;
 }
 .Title-text{
     color: #4E47FF;
+}
+.banner{
+    background-image: url("Assets/Hero-bg.png");
 }
 .h1-container1{
     font-size: 65px;
@@ -65,6 +88,10 @@ nav li a{
 }
 .h1-container7{
     font-size: 97px;
+}
+.h1-container8{
+    font-size: 100px;
+    color: #4e47ff;
 }
 .banner{
     margin: auto;
@@ -171,5 +198,14 @@ input , textarea{
 }
 .Right-Side2{
     padding-right: 150px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
 }
 
