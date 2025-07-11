@@ -56,9 +56,15 @@ nav li a{
     line-height: 0.8;
     color: #4E47FF;
 }
-h1-container5{
+.h1-container5{
     font-size: 42px;
     color: #252432;
+}
+.h1-container6{
+    font-size: 50px;
+}
+.h1-container7{
+    font-size: 97px;
 }
 .banner{
     margin: auto;
@@ -75,6 +81,11 @@ h1-container5{
 .paragraph-container3{
     font-size: 16px;
     color: #757575;
+}
+.label-container{
+    font-size: 18px;
+    padding-top: 19px;
+    padding-bottom: 10px;
 }
 .action{
     padding: 116px 159px 0px 141px;
@@ -124,11 +135,41 @@ h1-container5{
 .Info{
     line-height: 0;
 }
-.img-container{
+.img-profile-container{
     padding-right: 5px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
+.Image-container{
+    border-radius: 48px;
+    padding: 20px;
+}
+.Additional-Section{
+    padding: 208px;
+    text-align: center;
+    align-items: center;
+}
+.Get-In-Touch-Section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+input , textarea{
+    font-size: 20px;
+    border: 1px solid #d6dded;
+    border-radius: 6px;
+    min-width: 500px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+}
+
+.Left-Side2{
+    padding-left: 150px;
+}
+.Right-Side2{
+    padding-right: 150px;
+}
 
